@@ -1,0 +1,58 @@
+<Interaction Type="Labeled Graphic" Title="Diabetes Impact on the Body" contentfont="Foco" dotanimation="spin" defaultimage="false" jpegquality="100" autoplay="false" autoplayduration="5" headingfont="Foco" navfont="Foco" soundeffects="false" volumebutton="false" audioquality="high" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.3.1005.1623" borderstyle="round_inset">
+  <bgimage src="image1.jpg" percent="30" originalSource="imageSource1.png" width="627" height="470" />
+  <labels>
+    <label panelpos="auto" iconid="4" x="215" y="162">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="ca813577-cd88-4907-be5a-1051b1b7c30d" name="Excessive Blood Sugar" title="" number="1" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;For people with diabetes, sugar (glucose) accumulates in the blood at very high levels. This excess glucose attaches to proteins in the blood vessels and alters their normal structure and function. One effect is that the vessels become thicker and less elastic and thus restrict blood flow to vital organs and extremities.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio7.mp3" source="audioSource7.wav" duration="21703" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="174" y="28">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="985a8b77-10bd-4bc1-838f-9af898c03012" name="Eye Damage" title="" number="2" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Diabetic eye disease starts when blood vessels in the back of the eye (the retina) expand out and form pouches. This stage is called nonproliferative retinopathy and generally does not affect vision, but it can progress to proliferative retinopathy, a more serious condition where damaged blood vessels close off and are replaced by new weaker vessels. The new vessels can leak blood, which blocks vision. It can also cause scar tissue, which distorts the retina.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio8.mp3" source="audioSource8.wav" duration="32492" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="408" y="168">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="f8b20583-3119-4d28-a368-ca3420487af8" name="Kidney Disease" title="" number="3" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Kidney disease starts when kidney blood vessels become leaky. The leaky vessels allow protein from the blood to be excreted with urine (this protein is what doctors detect during kidney function tests.) Eventually, some vessels collapse, placing more pressure on remaining vessels. Under this increased load, remaining blood vessels are also damaged leading to potential kidney failure. Once the disease reaches this point, a person may need to go on dialysis - where a machine performs the role of the kidney, or receive a kidney transplant.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio9.mp3" source="audioSource9.wav" duration="35187" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="208" y="127">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="bfe48b4d-b369-4090-9c93-b7ef6ff30632" name="Heart and Blood Vessel Disease" title="" number="4" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;High blood sugar damages blood vessels and can restrict or block blood flow. This blockage can cause heart attacks and strokes. Compared to the general public, diabetics have two to four times the risk of developing heart disease or stroke. Blocked vessels in the legs cause pain and impaired circulation to the lower legs and feet. With poor circulation, small cuts or infections are less likely to heal, eventually leading to 0.6 percent of all diabetics having lower limb amputation.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio10.mp3" source="audioSource10.wav" duration="33562" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="395" y="364">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="1eee450e-3f25-42f0-a5b3-d174534694f9" name="Nerve Disease" title="" number="5" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;In diabetes, the nerves that become damaged are the ones that allow the body to sense temperature, pressure, texture, or skin pain. In most diabetics, nerve disease (neuropathy) affects the feet and lower legs, causing numbness, pain or tingling. The real problem arises when this numbness allows injuries to the foot to go unnoticed. For this reason, the American Diabetes Association recommends that all people with diabetes have a thorough annual foot exam.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio11.mp3" source="audioSource11.wav" duration="32781" />
+        </Step>
+      </steps>
+    </label>
+  </labels>
+  <introduction>
+    <label panelpos="auto" iconid="4" x="63" y="55">
+      <color name="Black" valuea="0x000000" valueb="0x333333" inner="0x666666" hovera="0xC3C3C3" hoverb="0x333333" />
+      <steps>
+        <Step id="7e0f3a95-7e1b-41c8-9ade-6e7823805d70" name="How does diabetes impact the body?" title="" number="0" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;People with Type 1 or Type 2 Diabetes are at a much higher risk than the general population for damage to the eyes, kidney, nerves, and blood vessels.&lt;/font&gt;&lt;/p&gt;" intro="true">
+          <audio name="audio6.mp3" source="audioSource6.wav" duration="11726" />
+        </Step>
+      </steps>
+    </label>
+  </introduction>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="d541dc9e-4595-414b-93c0-0e3e7d779686" enabled="false" />
+</Interaction>
