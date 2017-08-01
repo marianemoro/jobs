@@ -5,7 +5,7 @@
 /* Slide 1 */ 
 
 #slide1{
-  background-image: url(../images/cover-slide1.jpg);
+  background-image: url(/images/cover-slide1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color:#000;
