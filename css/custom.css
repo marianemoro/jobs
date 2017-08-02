@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------
-    ADD YOUR OWN THEME STYLING HERE 
+    ADD YOUR OWN THEME STYLING HERE
 -------------------------------------------------------------------*/
 
-/* Slide 1 */ 
+/* Slide 1 */
 
 #slide1{
   background-image: url(/images/cover-slide1.jpg);
@@ -25,7 +25,7 @@
   background: url(../images/overlay.png);
 }
 
-/* Slide 2 */ 
+/* Slide 2 */
 
 #slide2{
   /*background-image: url(../images/texture.jpg);*/
@@ -57,7 +57,7 @@
 }
 
 
-/* Slide 3 */ 
+/* Slide 3 */
 
 #slide3{
   background-color:#ffffff;
