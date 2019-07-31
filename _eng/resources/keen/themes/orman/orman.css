@@ -1,0 +1,221 @@
+/*
+Skin Name: Orman Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: fixed
+Description: A light and green skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom & Orman Clark
+Author URI: http://dev7studios.com
+*/
+@font-face {
+	font-family: 'AkzidenzGroteskBQBold';
+	src: url('../../fonts/akzidenzgrotesk-bold-webfont.eot');
+	src: url('./../fonts/akzidenzgrotesk-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('./../fonts/akzidenzgrotesk-bold-webfont.woff') format('woff'),
+	url('./../fonts/akzidenzgrotesk-bold-webfont.ttf') format('truetype'),
+	url('./../fonts/akzidenzgrotesk-bold-webfont.svg#AkzidenzGroteskBQBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskBQExtendedRg';
+	src: url('../../fonts/akzidenzgrotesk-extended-webfont.eot');
+	src: url('../../fonts/akzidenzgrotesk-extended-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/akzidenzgrotesk-extended-webfont.woff') format('woff'),
+	url('../../fonts/akzidenzgrotesk-extended-webfont.ttf') format('truetype'),
+	url('../../fonts/akzidenzgrotesk-extended-webfont.svg#AkzidenzGroteskBQExtendedRg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskBQLightRegular';
+	src: url('../../fonts/akzidenzgrotesk-light-webfont.eot');
+	src: url('../../fonts/akzidenzgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/akzidenzgrotesk-light-webfont.woff') format('woff'),
+	url('../../fonts/akzidenzgrotesk-light-webfont.ttf') format('truetype'),
+	url('../../fonts/akzidenzgrotesk-light-webfont.svg#AkzidenzGroteskBQLightRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskBQRegular';
+	src: url('../../fonts/akzidenzgrotesk-regular-webfont.eot');
+	src: url('../../fonts/akzidenzgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../fonts/akzidenzgrotesk-regular-webfont.woff') format('woff'),
+	url('../../fonts/akzidenzgrotesk-regular-webfont.ttf') format('truetype'),
+	url('../../fonts/akzidenzgrotesk-regular-webfont.svg#AkzidenzGroteskBQRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+.theme-orman.slider-wrapper {
+    width:819px;
+    /*height:337px;*/
+	min-height:337px;
+    margin:0 auto;
+    position:relative;
+	padding:6px 0;
+}
+
+.theme-orman .nivoSlider {
+    position:relative;
+    width:100%;
+    height:354px;
+    background:url(loading.gif) no-repeat 50% 50%;
+}
+
+#wrapper2 .theme-orman .nivoSlider {
+	height:292px;
+}
+
+.theme-orman .nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    width:568px; /* Make sure your images are the same size */
+    height:268px; /* Make sure your images are the same size */
+}
+.theme-orman .nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.theme-orman .nivo-controlNav {
+    position:absolute;
+	left:50%;
+	bottom:-33px;
+    margin-left:-30px; /* Tweak this to center bullets */
+}
+.theme-orman .nivo-controlNav a {
+    display:block;
+    width:16px;
+    height:16px;
+    background:url(bullets.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    margin-right:7px;
+    float:left;
+}
+.theme-orman .nivo-controlNav a.active {
+    background-position:0 -16px;
+}
+
+.nivo-directionNav{
+	display:block !important;
+	}
+
+.theme-orman .nivo-directionNav a {
+	display:block;
+	width:35px;
+	height:200px;
+	background:url(arrows.png) no-repeat 0% 50%;
+	text-indent:-9999px;
+	border:0;
+    top:85px;
+}
+.theme-orman a.nivo-nextNav {
+	background-position:100% 50%;
+	right:-67px;
+    padding-right:20px;
+}
+.theme-orman a.nivo-prevNav {
+	left:-67px;
+    padding-left:20px;
+}
+
+.theme-orman .nivo-caption strong{
+	
+    font-family: 'AkzidenzGroteskBQExtendedRg';
+	color:#FFDE00;
+	font-size: 16px;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+.theme-orman .nivo-caption {
+	
+    font-family: 'AkzidenzGroteskBQRegular';
+	color:#FFFFFF;
+	font-size: 16px;
+}
+.theme-orman .nivo-caption a { 
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-orman .nivo-caption a:hover { 
+    color:#fff;
+}
+
+.theme-orman .ribbon {
+    background:url(ribbon.png) no-repeat;
+    width:111px;
+    height:111px;
+    position:absolute;
+    top:-3px;
+    left:56px;
+    z-index:300;
+}
+
+.theme-orman.controlnav-thumbs .nivo-controlNav a {
+    width:auto;
+    height:auto;
+	margin:0px;
+}
+
+.theme-orman.controlnav-thumbs .nivoSlider {
+    margin-bottom:100px; /* Tweak this to push content down */
+}
+.theme-orman.controlnav-thumbs .nivo-controlNav {
+	position:absolute;
+	left:0px;
+	bottom:-99px; /* Tweak this to push thumbnails down */
+    margin:0;
+	width:100%;
+	background:#3E3E3E;
+}
+.theme-orman.controlnav-thumbs .nivo-controlNav a {
+	display:inline;
+	background:#FFF;
+	text-indent:0px;
+	border:0;
+	width: 86px;
+	height: 77px;
+	margin:8px 0 8px 12px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	text-align: center;
+}
+.theme-orman.controlnav-thumbs .nivo-controlNav a:first-child {
+
+}
+.theme-orman.controlnav-thumbs .nivo-controlNav a:last-child {
+	margin-right:12px;
+}
+.theme-orman.controlnav-thumbs .nivo-controlNav a.active {
+	border:3px solid #E8CC20;
+	margin-top:-4px;
+}
+/*
+.theme-orman.controlnav-thumbs .nivo-controlNav a.active img {
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}*/
+.theme-orman.controlnav-thumbs .nivo-controlNav img {
+	display:inline;
+	position:relative;
+	height:75px;
+	width: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

@@ -1,0 +1,98 @@
+<Interaction Type="Labeled Graphic" Title="Ten Ways to Manage Diabetes" contentfont="Foco" dotanimation="spin" defaultimage="false" jpegquality="100" autoplay="false" autoplayduration="5" headingfont="Foco" navfont="Foco" soundeffects="false" volumebutton="false" audioquality="high" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" animation="bounce" version="2.3.1005.1623" borderstyle="round_inset">
+  <bgimage src="image1.jpg" percent="30" originalSource="imageSource1.png" width="627" height="470" />
+  <labels>
+    <label panelpos="auto" iconid="4" x="243" y="424">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="ca813577-cd88-4907-be5a-1051b1b7c30d" name="Manage your diabetes" title="" number="1" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Members of your diabetes care team - doctor, diabetes nurse educator and dietitian, for example - will help you learn the basics of diabetes care and offer support and encouragement along the way. But it's up to you to manage your condition. After all, no one has a greater stake in your health than you.&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Learn all you can about diabetes. Make healthy eating and physical activity part of your daily routine. Maintain a healthy weight. Monitor your blood sugar level, and follow your doctor's instructions for keeping your blood sugar level within your target range. Don't be afraid to ask your diabetes treatment team for help when you need it.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio12.mp3" source="audioSource12.wav" duration="38968" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="610" y="359">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="985a8b77-10bd-4bc1-838f-9af898c03012" name="Don't smoke" title="" number="2" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;If you smoke or use other types of tobacco, ask your doctor to help you quit. Smoking increases your risk of various diabetes complications, including heart attack, stroke, nerve damage and kidney disease. In fact, smokers who have diabetes are three times more likely to die of cardiovascular disease than are nonsmokers who have diabetes, according to the American Diabetes Association. Talk to your doctor about ways to stop smoking or to stop using other types of tobacco.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio13.mp3" source="audioSource13.wav" duration="31609" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="260" y="302">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="f8b20583-3119-4d28-a368-ca3420487af8" name="Blood pressure and cholesterol" title="" number="3" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Like diabetes, high blood pressure can damage your blood vessels. High cholesterol is a concern, too, since the damage is often worse and more rapid when you have diabetes. When these conditions team up, they can lead to a heart attack, stroke or other life-threatening conditions.&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Eating healthy foods and exercising regularly can go a long way toward controlling high blood pressure and cholesterol. Sometimes medication is needed, too.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio14.mp3" source="audioSource14.wav" duration="27429" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="586" y="312">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="12abb018-44e0-447b-87cd-b72d84e6b3bd" name="Regular physical exams" title="" number="4" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Your regular diabetes checkups aren't meant to replace yearly physicals or routine eye exams. During the physical, your doctor will look for any diabetes-related complications - including signs of kidney damage, nerve damage and heart disease - as well as screen for other medical problems. Your eye care specialist will check for signs of retinal damage, cataracts and glaucoma.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio15.mp3" source="audioSource15.wav" duration="23273" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="555" y="387">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="201dfaff-22ed-4575-8c4a-4102be488920" name="Important vaccines" title="" number="5" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;High blood sugar can weaken your immune system, which makes routine vaccines more important than ever. Ask your doctor about:&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='13' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;&lt;/font&gt;&lt;font face='Foco' size='15' color=''&gt; Flu vaccine. A yearly flu vaccine can help you stay healthy during flu season, as well as prevent serious complications from the flu.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='15' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;Pneumonia vaccine. Sometimes the pneumonia vaccine requires only one shot. If you have diabetes complications or you're age 65 or older, you may need a five-year booster shot.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='15' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;Other vaccines. Stay up to date with your tetanus shot and its 10-year boosters, and ask your doctor about the hepatitis B vaccine. Depending on the circumstances, your doctor may recommend other vaccines as well.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;">
+          <audio name="audio16.mp3" source="audioSource16.wav" duration="42132" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="406" y="197">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="070478a1-48f1-455a-9de2-9e9112d442f7" name="Dental exams" title="" number="6" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Diabetes may leave you prone to gum infections. Brush your teeth at least twice a day, floss your teeth once a day, and schedule dental exams at least twice a year. Consult your dentist right away if your gums bleed or look red or swollen.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio17.mp3" source="audioSource17.wav" duration="16843" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="526" y="258">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="3dd13817-e4ea-4207-b638-693bd5e5daaa" name="Foot exams" title="" number="7" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;High blood sugar can damage the nerves in your feet and reduce blood flow to your feet. Left untreated, cuts and blisters can lead to serious infections. To prevent foot problems:&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='13' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;&lt;/font&gt;&lt;font face='Foco' size='15' color=''&gt;Wash your feet daily in lukewarm water.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='15' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;Dry your feet gently, especially between the toes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='15' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;Moisturize your feet and ankles with lotion.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='15' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;Check your feet every day for blisters, cuts, sores, redness or swelling.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat tabstops='[0]' indent='-20' leftmargin='21'&gt;&lt;font face='Foco' size='15' color=''&gt;•&lt;TAB&gt;&lt;/TAB&gt;Consult your doctor if you have a sore or other foot problem that doesn't start to heal within a few days.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;">
+          <audio name="audio18.mp3" source="audioSource18.wav" duration="33039" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="451" y="394">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="a66c0718-1c17-4b7a-8300-f21ebb47b780" name="Daily aspirin therapy" title="" number="8" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Aspirin reduces your blood's ability to clot. Taking a daily aspirin can reduce your risk of heart attack and stroke - major concerns when you have diabetes. In fact, daily aspirin therapy is recommended for most people who have diabetes. Ask your doctor about daily aspirin therapy, including which strength of aspirin would be best.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio19.mp3" source="audioSource19.wav" duration="22093" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="511" y="355">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="d616768e-37b3-4558-b422-0efa15cfe75f" name="Drink alcohol in moderation" title="" number="9" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Alcohol can cause low blood sugar, depending on how much you drink and if you eat at the same time. If you choose to drink, do so only in moderation and always with a meal. Remember to include the calories from any alcohol you drink in your daily calorie count.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio20.mp3" source="audioSource20.wav" duration="16320" />
+        </Step>
+      </steps>
+    </label>
+    <label panelpos="auto" iconid="4" x="168" y="103">
+      <color name="Light Blue" valuea="0x4C67A2" valueb="0x7AA2DF" inner="0x000000" hovera="0x33CCFF" hoverb="0x003399" />
+      <steps>
+        <Step id="d511c113-2cac-41e1-86d8-3c75cb94b5fe" name="Do not stress" title="" number="10" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;If you're stressed, it's easy to neglect your usual diabetes care routine. The hormones your body may produce in response to prolonged stress may prevent insulin from working properly, which only makes matters worse. To take control, set limits. Prioritize your tasks. Learn relaxation techniques. Get plenty of sleep.&lt;/font&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Above all, stay positive. Diabetes care is within your control. If you're willing to do your part, diabetes won't stand in the way of an active, healthy life.&lt;/font&gt;&lt;/p&gt;">
+          <audio name="audio21.mp3" source="audioSource21.wav" duration="31421" />
+        </Step>
+      </steps>
+    </label>
+  </labels>
+  <introduction>
+    <label panelpos="auto" iconid="4" x="39" y="36">
+      <color name="Black" valuea="0x000000" valueb="0x333333" inner="0x666666" hovera="0xC3C3C3" hoverb="0x333333" />
+      <steps>
+        <Step id="7e0f3a95-7e1b-41c8-9ade-6e7823805d70" name="Introduction" title="" number="0" audioonly="false" html="&lt;p align='left'&gt;&lt;font face='Foco' size='15' color=''&gt;Here are 10 ways to take an active role in diabetes care and enjoy a healthier future.&lt;/font&gt;&lt;/p&gt;" intro="true">
+          <audio name="audio0.mp3" source="audioSource0.wav" duration="32492" />
+        </Step>
+      </steps>
+    </label>
+  </introduction>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="53bdf553-74b7-4e03-959b-11d7da35955b" enabled="false" />
+</Interaction>

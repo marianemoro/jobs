@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scheme name="Diabesity" version="2" custompath="C:\Documents and Settings\Flavio Fusuma\Dados de aplicativos\Articulate\Engage\2.0\schemes\Diabesity.xml" id="215eb879-21b6-4369-9f3d-ceaa74a6ec03">
+  <!-- #1 -->
+  <bg displayname="Background" category="Background and Text" alpha="0">0xFFFFFF</bg>
+  <!-- #2 -->
+  <topbuttons displayname="Header Normal" pairid="topbuttons" category="Buttons" alpha="100">0xF68E56</topbuttons>
+  <!-- #2 -->
+  <topbuttonsb pairid="topbuttons" category="Buttons">0xFBAF5D</topbuttonsb>
+  <!-- #2 -->
+  <tophover pairid="tophover" displayname="Header Hover" category="Buttons" alpha="100">0xA4BFCC</tophover>
+  <!-- #2 -->
+  <tophoverb pairid="tophover" category="Buttons">0xD9E6F2</tophoverb>
+  <!-- #3 -->
+  <navbutton pairid="navbutton" displayname="Navigation Normal" category="Buttons" alpha="100">0xF7941D</navbutton>
+  <!-- #3 -->
+  <navbuttonb pairid="navbutton" category="Buttons">0xFBAF5D</navbuttonb>
+  <!-- #3 -->
+  <navhover pairid="navhover" displayname="Navigation Hover" category="Buttons" alpha="100">0xA7BFCD</navhover>
+  <!-- #3 -->
+  <navhoverb pairid="navhover" category="Buttons">0x799EB5</navhoverb>
+  <!-- #4 -->
+  <activenavbutton pairid="activenavbutton" displayname="Navigation Active" category="Buttons" alpha="100">0xFCC485</activenavbutton>
+  <!-- #4 -->
+  <activenavbuttonb pairid="activenavbutton" category="Buttons">0xFEDEBA</activenavbuttonb>
+  <!-- Changing the items above will have the most impact. Usually there's no need to change the following colors. -->
+  <!-- #5 -->
+  <headerbar displayname="Header Background" category="Background and Text" alpha="100">0xDDE4E8</headerbar>
+  <!-- #6 -->
+  <contentbg displayname="Slide Background" category="Background and Text" alpha="100">0xFFFFFF</contentbg>
+  <!-- #7 -->
+  <footerbar displayname="Footer Bar" category="Background and Text" alpha="100">0xFFFFFF</footerbar>
+  <!-- #8 -->
+  <fonta displayname="Header Text" category="Background and Text" alpha="100">0x595959</fonta>
+  <!-- #9 -->
+  <fontb displayname="Slide Text" category="Background and Text" alpha="100">0x000000</fontb>
+  <!-- #10 -->
+  <tt_bg displayname="Background" category="Tooltips" alpha="100">0xFFFFFF</tt_bg>
+  <!-- #10 -->
+  <tt_border displayname="Border" category="Tooltips">0x676767</tt_border>
+  <!-- #10 -->
+  <tt_text displayname="Text" category="Tooltips">0x000000</tt_text>
+  <!-- #11 -->
+  <calloutbg displayname="Background" category="Callouts">0xFFFFFF</calloutbg>
+  <!-- #12 -->
+  <callouttext displayname="Text" category="Callouts">0x000000</callouttext>
+  <!-- #13 -->
+  <listselect displayname="Item Selected" category="Glossary" alpha="100">0xA60F29</listselect>
+  <!-- #14 -->
+  <listhover displayname="Item Hover" category="Glossary" alpha="100">0x9A98A2</listhover>
+  <!-- #15 -->
+  <timeline_tooltip_hover displayname="Tooltip Hover" category="Timeline" alpha="100">0x9E0039</timeline_tooltip_hover>
+  <!-- #16 -->
+  <timeline_period_text displayname="Period Text" category="Timeline">0x000000</timeline_period_text>
+  <!-- #17 -->
+  <timeline_selected_period_text displayname="Selected Period Text" category="Timeline" alpha="100">0xFFFFFF</timeline_selected_period_text>
+  <!-- #18 -->
+  <lblgrf_calloutbg displayname="Callout Background" category="Labeled Graphic" alpha="100">0xFFFFFF</lblgrf_calloutbg>
+  <!-- #19 -->
+  <tab_contentbg displayname="Background" category="Tabs" alpha="100">0xFFFFFF</tab_contentbg>
+  <!-- #20 -->
+  <tab_textbg displayname="Slide Background" category="Tabs">0xffffff</tab_textbg>
+  <!-- #21 -->
+  <faq_button_text displayname="FAQ Button Text" category="FAQ">0xffffff</faq_button_text>
+</scheme>

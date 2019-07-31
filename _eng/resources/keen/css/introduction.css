@@ -1,0 +1,632 @@
+@font-face {
+	font-family: 'AkzidenzGroteskBQBold';
+	src: url('../fonts/akzidenzgrotesk-bold-webfont.eot');
+	src: url('../fonts/akzidenzgrotesk-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/akzidenzgrotesk-bold-webfont.woff') format('woff'),
+	url('../fonts/akzidenzgrotesk-bold-webfont.ttf') format('truetype'),
+	url('../fonts/akzidenzgrotesk-bold-webfont.svg#AkzidenzGroteskBQBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskBQExtendedRg';
+	src: url('../fonts/akzidenzgrotesk-extended-webfont.eot');
+	src: url('../fonts/akzidenzgrotesk-extended-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/akzidenzgrotesk-extended-webfont.woff') format('woff'),
+	url('../fonts/akzidenzgrotesk-extended-webfont.ttf') format('truetype'),
+	url('../fonts/akzidenzgrotesk-extended-webfont.svg#AkzidenzGroteskBQExtendedRg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskBQLightRegular';
+	src: url('../fonts/akzidenzgrotesk-light-webfont.eot');
+	src: url('../fonts/akzidenzgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/akzidenzgrotesk-light-webfont.woff') format('woff'),
+	url('../fonts/akzidenzgrotesk-light-webfont.ttf') format('truetype'),
+	url('../fonts/akzidenzgrotesk-light-webfont.svg#AkzidenzGroteskBQLightRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'AkzidenzGroteskBQRegular';
+	src: url('../fonts/akzidenzgrotesk-regular-webfont.eot');
+	src: url('../fonts/akzidenzgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/akzidenzgrotesk-regular-webfont.woff') format('woff'),
+	url('../fonts/akzidenzgrotesk-regular-webfont.ttf') format('truetype'),
+	url('../fonts/akzidenzgrotesk-regular-webfont.svg#AkzidenzGroteskBQRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+body {
+	background: #000 url(../images/bg.jpg) no-repeat fixed;
+	margin:0;
+	padding:0;
+	font: 14px/1.6 'AkzidenzGroteskBQRegular' !important;
+}
+
+#header{
+	width:100%;
+}
+
+
+#menu_float{
+	left:0px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:70px;
+
+}
+
+#bg_float{
+	background:#242424;
+	border-right: 1px solid #181819;
+	border-left: 1px solid #2F2F30;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width:32px;
+	padding: 10px 0;
+	position:relative;
+}
+
+#bg_float a:first-child{
+	margin: 0 auto 25px;
+}
+#bg_float a:last-child{
+	margin: 25px auto 0;
+}
+#bg_float a{
+	margin: 25px auto;
+	background:url("../images/boll_float.png") no-repeat scroll -16px 0 transparent;
+}
+
+#bg_float a.enable{
+	background:url("../images/boll_float.png") no-repeat scroll 0 0 transparent;
+}
+
+
+.boll_float {
+
+	margin: auto;
+
+	width: 16px;
+	height: 15px;
+	display:block;
+	cursor:pointer;
+
+
+}
+.title1{
+	top:8px;
+}
+.title2{
+	top:47px;
+}
+.title3{
+	top:86px;
+}
+.title4{
+	top:126px;
+}
+.title5{
+	top:167px;
+}
+.title6{
+	top:206px;
+}
+.title7{
+	top:245px;
+}
+.title8{
+	top:284px;
+}
+.title9{
+	top:323px;
+}
+.title10{
+	top:362px;
+}
+/**/
+
+
+/*MUDANCAS MENU TOP*/
+#top{
+    position: relative;
+    z-index: 887;
+}
+
+#topnav {
+    position:relative;
+}
+
+#logo_small_keen{
+	width:100%;
+    position: absolute;
+	z-index:889;
+	display:block;
+	height:74px;
+	background: url(../images/back_logo.png) repeat-x left 28px;
+	top:0px;
+}
+
+#logo_small_keen p:first-child{
+    width:100%;
+    font-family: 'AkzidenzGroteskBQExtendedRg';
+    font-size:11px;
+    text-align: center;
+    color:#FFDE00;
+    padding-top:42px;
+	display:block;
+	position: absolute;
+	background: url(../images/keen_small_logo.png) no-repeat center 1px;
+}
+
+#top .handle {
+	width:100%;
+	height:28px;
+	border-top:1px solid #FEDD00;
+	background: #DBC32D url(../images/back_menu_handle.jpg) repeat-x left top;
+}
+
+section{
+	position:relative;
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom:150px;
+}
+section:nth-of-type(1),
+section:first-of-type{
+	margin-top:100px;
+        margin-bottom: 75px;
+}
+
+.logo_bigfoot{
+	margin:0 auto 75px;
+	background: url(../images/logo_bigfoot.png) no-repeat center 0px;
+	height: 206px;
+	
+}
+
+.box_gray #iframe {
+	margin: 6px;
+	width: 820px;
+}
+#page1-0{
+	background: url(../images/logos_communication.png) no-repeat center;
+	width: 1024px;
+	height: 220px;
+	margin:0 auto;
+}
+#page1-1{
+	
+        background: url(../images/img_intro.png) no-repeat center;
+	width: 808px;
+	height: 441px;
+	margin:0 auto;
+}
+
+
+.labels{
+	background: url(../images/bg_labels.png) repeat left top;
+	
+}
+.label-0{
+	background: url(../images/communication_text.png) no-repeat center center;
+	height:300px;
+}
+
+.label-1{
+	background: url(../images/label_top1.png) no-repeat center center;
+	height:157px;
+}
+.label-2{
+	background: url(../images/label_top2.png) no-repeat center center;
+	height:157px;
+}
+.label-3{
+	background: url(../images/label_top3.png) no-repeat center center;
+	height:157px;
+}
+
+#image1_guide{
+	background: url(../images/label1.png) no-repeat center bottom;		
+	position: relative;
+	width: 100%;
+	height: 292px;
+}
+#image1_guide_p2{
+	background: url(../images/label2.png) no-repeat center;		
+	position: relative;
+	width: 100%;
+	height: 292px;
+}
+#image1_guide_p3{
+	background: url(../images/label3.png) no-repeat center;		
+	position: relative;
+	width: 100%;
+	height: 292px;
+}
+#image1_guide_p6{
+	background: url(../images/label4.jpg) no-repeat center;
+	position: relative;
+	width: 100%;
+	height: 495px;
+}
+#image_3d{
+	background: url(http://placehold.it/819x402) no-repeat center;
+	position: relative;
+	width: 100%;
+	height: 510px;
+}
+#tooltips {
+	display: none;
+}
+.tooltip{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+}
+#tooltip1{
+	left: 52px;
+	top: 20px;
+}
+#tooltip2{
+	left: 228px;
+	top: 9px;
+}
+#tooltip3{
+	left: 70px;
+	top: 193px;
+}
+#tooltip4{
+	left: 316px;
+	top: 160px;
+}
+#tooltip5{
+	left: 501px;
+	top: 76px;
+}
+#tooltip6{
+	left: 419px;
+	top: 292px;
+}
+#tooltip7{
+	left: 607px;
+	top: 287px;
+}
+#tooltip8{
+	left: 714px;
+	top: 22px;
+}
+#tooltip9{
+	left: 910px;
+	top: 40px;
+}
+#tooltip10{
+	left: 713px;
+	top: 224px;
+}
+#tooltip11{
+	left: 900px;
+	top: 203px;
+}
+
+#tooltip12{
+	left: 72px;
+	top: 72px;
+}
+#tooltip13{
+	left: 202px;
+	top: 9px;
+}
+#tooltip14{
+	left: 142px;
+	top: 207px;
+}
+#tooltip15{
+	left: 314px;
+	top: 168px;
+}
+#tooltip16{
+	left: 423px;
+	top: 288px;
+}
+#tooltip17{
+	left: 463px;
+	top: 152px;
+}
+#tooltip18{
+	left: 625px;
+	top: 267px;
+}
+#tooltip19{
+	left: 715px;
+	top: 101px;
+}
+#tooltip20{
+	left: 746px;
+	top: 208px;
+}
+#tooltip21{
+	left: 912px;
+	top: 152px;
+}
+
+#tooltip22{
+	left: 103px;
+	top: 126px;
+}
+#tooltip23{
+	left: 250px;
+	top: 46px;
+}
+#tooltip24{
+	left: 163px;
+	top: 214px;
+}
+
+#tooltip25{
+	left: 313px;
+	top: 158px;
+}
+#tooltip26{
+	left: 714px;
+	top: 45px;
+}
+#tooltip27{
+	left: 922px;
+	top: 129px;
+}
+#tooltip28{
+	left: 716px;
+	top: 158px;
+}
+#tooltip29{
+	left: 876px;
+	top: 221px;
+}
+#tooltip30{
+	left: 427px;
+	top: 206px;
+}
+#tooltip31{
+	left: 553px;
+	top: 90px;
+}
+#tooltip32{
+	left: 480px;
+	top: 309px;
+}
+#tooltip33{
+	left: 595px;
+	top: 206px;
+}
+#tooltip34{
+	left: 100px;
+	top: 150px;
+}
+
+#tooltip35{
+	left: 200px;
+	top: 340px;
+}
+#tooltip36{
+	left: 320px;
+	top: 110px;
+}
+#tooltip37{
+	left: 800px;
+	top: 300px;
+}
+#tooltip38{
+	left: 650px;
+	top: 10px;
+}
+#tooltip39{
+	left: 610px;
+	top: 110px;
+}
+#tooltip40{
+	left: 900px;
+	top: 150px;
+}
+#tooltip41{
+	left: 490px;
+	top: 320px;
+}
+#tooltip42{
+	left: 700px;
+	top: 380px;
+}
+#tooltip43{
+	left: 450px;
+	top: 160px;
+}
+
+
+.box_gray{
+	width: 832px;
+	background-color:#222;
+	margin: 0 auto !important;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+	-webkit-box-shadow: 0 0 35px 9px #000000;
+	-moz-box-shadow: 0 0 35px 9px #000000;
+	box-shadow: 0 0 35px 9px #000000;
+	border: 6px solid #3E3E3E !important;
+	height: 414px;
+}
+
+.botton_box{
+	width:819px;
+	height:40px;
+	background-color:#3E3E3E;
+	margin: 0 auto !important;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	-webkit-box-shadow: 0 0 2px 1px #111111;
+	-moz-box-shadow: 0 0 2px 1px #111111;
+	box-shadow: 0 0 2px 1px #111111;
+
+	border-top: 1px solid #555555;
+	border-left: 1px solid #555555;
+}
+
+
+.text_content a{
+    font-family: 'AkzidenzGroteskBQRegular';
+    font-size:14px;
+    color:#FFFFFF;
+    text-shadow: #000000 1px 1px 1px;
+}
+.text_content p{
+    font-family: 'AkzidenzGroteskBQRegular';
+    font-size:22px;
+    color:#1F1F1F;
+}
+
+#logo_keen{
+    background: url(../images/keen_logo.png) no-repeat left top;
+    width: 134px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.title{
+    font-family: 'AkzidenzGroteskBQExtendedRg' !important;
+    text-shadow: black 1px 1px 1px;
+    border:0 !important;
+    font-size: 24px !important;
+    color: #FFDE00;
+    height:auto;
+    width:799px;
+    margin: 0 auto !important;
+	text-align: center;
+	position:relative;
+}
+#title{
+	font-family: 'AkzidenzGroteskBQExtendedRg';
+	font-size:14px;
+	color:#F2E300;
+	position:absolute;
+	width: 110px;
+	margin-left:45px;
+}
+
+
+
+a[name*="Sign 1"] {
+	top:-150px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 2"] {
+	top:250px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 3"] {
+	top:-100px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 4"] {
+	top:-140px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 5"] {
+	top:-100px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 6"] {
+	top:-160px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 7"] {
+	top:-40px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 8"] {
+	top: -140px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 9"] {
+	top:-40px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 10"] {
+	top:-40px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 11"] {
+	top:-40px;
+	position:absolute;
+	color:transparent !important;
+}
+a[name*="Sign 12"] {
+	top:-40px;
+	position:absolute;
+	color:transparent !important;
+}
+
+.theme-orman .nivoSlider img{
+	padding:0;
+}
+
+.text_content a{
+	font-family: 'AkzidenzGroteskBQRegular';
+	font-size:14px;
+	color:#FFFFFF;
+	text-shadow: #000000 1px 1px 1px;
+}
+.text_content p{
+	font-family: 'AkzidenzGroteskBQRegular';
+	font-size:22px;
+	color:#1F1F1F;
+}
+
+.theme-orman #slider2.nivoSlider{
+	height:304px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'AkzidenzGroteskBQRegular' !important;
+	text-shadow: black 1px 1px 1px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.sasquatch3d {
+ background-image: url(../images/sasquatch_bg.jpg);
+}
+
+.yeti3d {
+ background-image: url(../images/yeti_bg.jpg);
+}
+.align3d{
+ margin: 0 auto !important;
+ top: -40px;
+}
