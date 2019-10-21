@@ -1,0 +1,1302 @@
+/*
+1. base
+2.
+*/
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+html {
+  font-size: 125%;
+  font-family: Hind, sans-serif;
+  font-weight: 300; }
+
+body {
+  font-weight: 300; }
+
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0rem; }
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: normal;
+  color: #27282e; }
+
+h2 {
+  color: #27282e;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  letter-spacing: -1px; }
+
+h3 {
+  color: #27282e;
+  font-family: "Playfair Display", serif;
+  font-weight: normal; }
+
+h6 {
+  font-weight: bold; }
+
+h1 {
+  font-size: 5.20158rem;
+  line-height: 5.25rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem; }
+
+h2 {
+  font-size: 1.80203rem;
+  line-height: 2.25rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem; }
+
+h3 {
+  font-size: 1.60181rem;
+  line-height: 1.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem; }
+
+h4 {
+  font-size: 1.42383rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem; }
+
+h5 {
+  font-size: 1.26562rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem; }
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem; }
+
+.section-title h2 {
+  margin-bottom: 5px;
+  margin-top: 0; }
+
+.section-title p {
+  color: #aaa;
+  font-size: 20px;
+  margin-bottom: 10px; }
+  @media screen and (max-width: 768px) {
+    .section-title p {
+      font-size: 18px; } }
+
+section {
+  padding: 150px 0 120px; }
+
+.navbar-item img {
+  max-height: 2.25rem; }
+
+section.margin-bottom {
+  margin-bottom: 120px; }
+
+.navbar {
+  margin: 25px 2vh 0; }
+
+.navbar-item {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 0.88889rem;
+  line-height: 1.4rem;
+  color: #27282e; }
+  .navbar-item .navbar-link {
+    color: #27282e;
+    background: transparent; }
+
+.navbar-item.has-dropdown:hover .navbar-link {
+  background: transparent; }
+
+.navbar-dropdown {
+  background: none;
+  box-shadow: none; }
+
+.navbar-dropdown .navbar-item {
+  padding: 0.25rem 1rem; }
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+  background: none;
+  color: #27282e; }
+
+.navbar-dropdown a.navbar-item:focus, .navbar-dropdown a.navbar-item:hover {
+  background: none; }
+
+.navbar-dropdown > .third-level .navbar-item {
+  padding-left: 2.3rem;
+  font-size: 0.79012rem; }
+
+@media screen and (min-width: 1024px) {
+  .navbar-dropdown > .third-level .navbar-item {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 0.79012rem; } }
+
+body {
+  font-family: Hind, sans-serif;
+  color: #27282e; }
+
+a.say-hello, p.scroll-hint {
+  z-index: 3;
+  font-weight: bold;
+  color: inherit; }
+
+a.say-hello {
+  position: fixed;
+  bottom: 60px;
+  left: 30px;
+  transform-origin: left bottom;
+  transform: rotate(-90deg) translateY(100%); }
+
+p.scroll-hint {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  text-align: right;
+  transform-origin: left bottom;
+  transform: translateX(100%) rotate(-90deg); }
+
+p.scroll-hint .arrow {
+  display: inline-block;
+  color: inherit;
+  cursor: default; }
+
+p.scroll-hint.flip .hint-text {
+  display: none; }
+
+p.scroll-hint.flip .arrow {
+  transform: rotate(180deg);
+  cursor: pointer; }
+
+.hero.is-fullheight {
+  padding-top: 0; }
+  @media screen and (max-width: 768px) {
+    .hero.is-fullheight {
+      min-height: 85vh; } }
+  .hero.is-fullheight .hero-body {
+    align-items: flex-start;
+    padding: 0; }
+
+.hero .vertical-line {
+  position: absolute;
+  width: 1px;
+  height: 15vh;
+  background: #ccc;
+  z-index: 3;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 0; }
+
+.hero .down-arrow {
+  position: absolute;
+  z-index: 3;
+  bottom: 2vh;
+  left: 50%;
+  color: #333; }
+
+.hero svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background: #fefbfa;
+  width: 100%;
+  height: 100%; }
+
+.hero h1 {
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2; }
+  @media screen and (max-width: 768px) {
+    .hero h1 {
+      font-size: 50px; } }
+
+.hero p {
+  max-width: 26rem;
+  z-index: 2; }
+  @media screen and (max-width: 768px) {
+    .hero p {
+      font-size: 18px;
+      line-height: 25px;
+      margin-top: 30px; } }
+
+.hero .type-wrapper {
+  width: 60vw;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 12vh;
+  z-index: 2; }
+
+.hero .type {
+  z-index: 2;
+  max-width: 800px; }
+  @media screen and (max-width: 768px) {
+    .hero .type {
+      margin-left: 0vw;
+      margin-top: 0vh; } }
+
+.header {
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+.portfolio-gallery {
+  overflow: hidden;
+  padding-bottom: 60px; }
+  @media screen and (max-width: 768px) {
+    .portfolio-gallery {
+      padding-top: 0px; } }
+  .portfolio-gallery .work {
+    display: block; }
+    .portfolio-gallery .work .arrow {
+      display: none; }
+  .portfolio-gallery .work:hover .arrow {
+    display: inline-block; }
+  .portfolio-gallery .work .inner {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative; }
+  .portfolio-gallery .work h3 {
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+    font-weight: 300; }
+  .portfolio-gallery .work .inner::before {
+    content: '';
+    display: block;
+    padding-top: 100%; }
+  .portfolio-gallery #work-1 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-1.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-2 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-2.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-3 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-3.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-4 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-4.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-5 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-5.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-6 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-6.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-7 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-7.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-8 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-8.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-9 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-9.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-10 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-10.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-11 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-11.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-12 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-12.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-13 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-13.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-14 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-14.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-15 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-15.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-16 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-16.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-17 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-17.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-18 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-18.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-19 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-19.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-20 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-20.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-21 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-21.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-22 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-22.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-23 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-23.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-24 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-24.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-25 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-25.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-26 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-26.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-27 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-27.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-28 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-28.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-29 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-29.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-30 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-30.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-31 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-31.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-32 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-32.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-33 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-33.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-34 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-34.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-35 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-35.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-36 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-36.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-37 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-37.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-38 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-38.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-39 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-39.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  .portfolio-gallery #work-40 .inner {
+    background-image: url(https://via.placeholder.com/900);
+    background-image: url(../../images/@stock/work-40.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  @media screen and (max-width: 768px) {
+    .portfolio-gallery .section-title h2 {
+      font-size: 32px; } }
+  .portfolio-gallery .section-title.line {
+    position: absolute;
+    border-left: 1px solid #ccc;
+    left: 50%;
+    top: 0;
+    padding-left: 10px;
+    padding-top: 150px; }
+    @media screen and (max-width: 768px) {
+      .portfolio-gallery .section-title.line {
+        border-left: none;
+        position: static;
+        padding-top: 70px;
+        margin-left: 20px;
+        margin-bottom: 70px; } }
+  @media screen and (min-width: 769px), print {
+    .portfolio-gallery .work .inner, .portfolio-gallery .work h3 {
+      width: 80%;
+      margin: 0; }
+    .portfolio-gallery .work h3 {
+      margin-top: 20px; }
+    .portfolio-gallery .column:nth-of-type(2) .work .inner, .portfolio-gallery .column:nth-of-type(2) .work h3 {
+      margin-left: 6.66667%; }
+    .portfolio-gallery .column:nth-of-type(3) .work .inner, .portfolio-gallery .column:nth-of-type(3) .work h3 {
+      margin-left: 13.33333%; }
+    .portfolio-gallery .column:nth-of-type(4) .work .inner, .portfolio-gallery .column:nth-of-type(4) .work h3 {
+      margin-left: 20%; }
+    .portfolio-gallery .columns {
+      margin-bottom: 75px; }
+    .portfolio-gallery .container {
+      margin-top: 210px; } }
+
+.portfolio-gallery.with-title {
+  padding-top: 120px;
+  margin-bottom: 200px; }
+  .portfolio-gallery.with-title .section-title {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 120px; }
+    .portfolio-gallery.with-title .section-title ul.filter {
+      margin-top: 40px;
+      overflow: hidden; }
+      .portfolio-gallery.with-title .section-title ul.filter li {
+        float: left;
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 18px;
+        font-family: Hind, sans-serif; }
+        .portfolio-gallery.with-title .section-title ul.filter li a {
+          color: #aaa; }
+      .portfolio-gallery.with-title .section-title ul.filter li.current a {
+        color: #212227; }
+  .portfolio-gallery.with-title .work {
+    transition-property: opacity;
+    transition-duration: 500ms; }
+  .portfolio-gallery.with-title .work.dim {
+    opacity: 0.05; }
+
+.latest-posts {
+  overflow: visible;
+  padding-bottom: 150px;
+  background: #f5e4d8; }
+  @media screen and (max-width: 768px) {
+    .latest-posts h2 {
+      font-size: 32px; } }
+  .latest-posts h3, .latest-posts .permalink {
+    max-width: 750px; }
+    @media screen and (max-width: 768px) {
+      .latest-posts h3, .latest-posts .permalink {
+        max-width: 300px;
+        font-size: 22px; } }
+  .latest-posts .post {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 55px;
+    padding-top: 25px; }
+    @media screen and (max-width: 768px) {
+      .latest-posts .post {
+        padding-bottom: 18px; } }
+  .latest-posts .post.show-excerpt .meta .meta-title-image img {
+    display: none; }
+  .latest-posts .meta {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative; }
+    .latest-posts .meta img {
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+      position: absolute;
+      left: 200px;
+      top: 70px;
+      max-height: 200px;
+      z-index: 3; }
+    .latest-posts .meta .meta-title-image:hover img {
+      opacity: 1; }
+      @media screen and (max-width: 768px) {
+        .latest-posts .meta .meta-title-image:hover img {
+          display: none; } }
+  .latest-posts .post.show-excerpt {
+    padding-bottom: 20px; }
+    .latest-posts .post.show-excerpt .excerpt {
+      display: block; }
+  .latest-posts time {
+    font-family: Hind, sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+    color: #aaa;
+    width: 200px;
+    flex-shrink: 0; }
+    @media screen and (max-width: 768px) {
+      .latest-posts time {
+        font-size: 14px;
+        width: 100px;
+        order: 2;
+        justify-content: flex-end;
+        text-align: right; } }
+  .latest-posts h3 {
+    margin-right: 100px; }
+    .latest-posts h3 a {
+      color: #27282e; }
+  .latest-posts .excerpt {
+    display: none;
+    margin-left: 200px;
+    max-width: 750px;
+    margin-right: 100px;
+    font-family: Hind, sans-serif;
+    font-size: 20px;
+    color: #555;
+    line-height: 150%;
+    margin-top: 40px;
+    margin-bottom: 30px; }
+    @media screen and (max-width: 768px) {
+      .latest-posts .excerpt {
+        max-width: 300px; } }
+    .latest-posts .excerpt a.more {
+      display: block;
+      margin-top: 20px;
+      color: #27282e;
+      font-family: "Playfair Display", serif;
+      font-size: 1.125rem; }
+  .latest-posts .left {
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-end; }
+    @media screen and (max-width: 768px) {
+      .latest-posts .left {
+        justify-content: space-between;
+        width: 100%; } }
+  .latest-posts .toggler {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+    padding: 10px;
+    color: #444;
+    line-height: 100%;
+    display: inline-block;
+    margin-bottom: -6px;
+    justify-content: flex-end; }
+    @media screen and (max-width: 768px) {
+      .latest-posts .toggler {
+        display: none; } }
+
+.carousel .owl-stage.flex {
+  display: flex;
+  align-items: center; }
+
+.contact-info {
+  margin: 0 auto;
+  width: 60vw;
+  max-width: 1200px;
+  border-top: 1px solid #ccc; }
+  @media screen and (max-width: 768px) {
+    .contact-info {
+      width: 320px;
+      margin: 0 auto;
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+  @media screen and (max-width: 768px) {
+    .contact-info .section-title h2 {
+      font-size: 32px; } }
+  @media screen and (max-width: 768px) {
+    .contact-info .section-title p {
+      font-size: 18px; } }
+  .contact-info a.contact {
+    font-size: 1.125rem;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    color: #27282e;
+    margin-top: 40px;
+    display: block; }
+  .contact-info a.contact::after {
+    content: "\2192";
+    padding-left: 10px; }
+  .contact-info a.address {
+    font-size: 0.79012rem;
+    line-height: 24px;
+    display: block;
+    max-width: 200px;
+    color: #27282e; }
+  .contact-info ul.emails-and-phones {
+    margin-top: 50px; }
+    .contact-info ul.emails-and-phones li {
+      font-size: 0.79012rem;
+      line-height: 24px;
+      margin-bottom: 0; }
+
+.footer {
+  margin: 0 auto;
+  width: 60vw;
+  max-width: 1200px;
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  padding-bottom: 0;
+  background: none;
+  padding-left: 0;
+  padding-right: 0; }
+  @media screen and (max-width: 768px) {
+    .footer {
+      width: 320px;
+      margin: 0 auto;
+      padding-top: 40px;
+      padding-bottom: 80px; } }
+  .footer .copyright {
+    font-size: 0.79012rem;
+    line-height: 24px;
+    color: #aaa; }
+  .footer a.social {
+    display: inline-block;
+    margin-right: 25px;
+    color: #999;
+    font-size: 20px; }
+  .footer .columns {
+    align-items: flex-end; }
+
+.page-header {
+  padding-top: 180px; }
+  .page-header.short p {
+    max-width: 650px; }
+  .page-header h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 96px;
+    font-weight: normal;
+    line-height: 100%;
+    max-width: 800px;
+    margin-bottom: 120px; }
+  .page-header h1.margin-reduce {
+    margin-bottom: 40px; }
+  .page-header p {
+    font-family: Hind, sans-serif;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555; }
+  .page-header ul {
+    overflow: hidden; }
+    .page-header ul li {
+      margin-right: 80px;
+      float: left; }
+      .page-header ul li a {
+        font-size: 24px;
+        font-family: "Abril Fatface", serif;
+        font-weight: normal;
+        color: #27282e;
+        margin-top: 40px;
+        display: block; }
+      .page-header ul li a::after {
+        content: "\2192";
+        padding-left: 10px; }
+
+.page-image {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 120px; }
+  .page-image img {
+    min-width: 100%; }
+
+.services {
+  margin-top: 120px; }
+  .services .section-title {
+    margin-bottom: 60px; }
+    .services .section-title h2 {
+      font-size: 38px;
+      font-family: "Abril Fatface", serif;
+      font-weight: normal; }
+    .services .section-title p {
+      color: #aaa;
+      font-size: 20px; }
+      @media screen and (max-width: 768px) {
+        .services .section-title p {
+          font-size: 18px; } }
+  .services figure.image {
+    height: 630px;
+    overflow: hidden; }
+    .services figure.image img {
+      width: auto;
+      height: auto;
+      min-width: 100%;
+      min-height: 100%; }
+  .services h3 {
+    font-size: 26px;
+    font-family: "Abril Fatface", serif;
+    margin-top: 25px; }
+  .services ul {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Hind, sans-serif;
+    line-height: 160%;
+    color: #666; }
+
+.clients {
+  margin-top: 120px;
+  margin-bottom: 80px; }
+  .clients .section-title {
+    margin-bottom: 60px; }
+    .clients .section-title h2 {
+      font-size: 38px;
+      font-family: "Abril Fatface", serif;
+      font-weight: normal; }
+    .clients .section-title p {
+      color: #aaa;
+      font-size: 20px; }
+      @media screen and (max-width: 768px) {
+        .clients .section-title p {
+          font-size: 18px; } }
+  .clients ul {
+    font-size: 38px;
+    font-family: Hind, sans-serif;
+    overflow: hidden;
+    max-width: 880px; }
+    .clients ul li {
+      float: left;
+      margin-right: 80px;
+      color: #27282e;
+      line-height: 180%; }
+
+.contact-form {
+  margin-top: 80px; }
+  .contact-form .section-title {
+    margin-bottom: 35px; }
+    .contact-form .section-title h2 {
+      font-size: 38px;
+      font-family: "Abril Fatface", serif;
+      font-weight: normal; }
+    .contact-form .section-title p {
+      color: #aaa;
+      font-size: 20px; }
+  .contact-form form {
+    max-width: 800px; }
+    .contact-form form .input, .contact-form form .textarea, .contact-form form .select select {
+      border-radius: 0; }
+    .contact-form form label.error {
+      color: red;
+      margin-top: 5px;
+      display: block; }
+    .contact-form form .input, .contact-form form textarea {
+      margin-top: 25px;
+      font-family: "Abril Fatface", serif;
+      padding-left: 20px;
+      font-size: 22px; }
+    .contact-form form .input {
+      height: 70px; }
+    .contact-form form textarea {
+      height: 210px; }
+    .contact-form form .button {
+      border: none;
+      font-family: "Abril Fatface", serif;
+      padding-left: 0;
+      font-size: 24px;
+      margin-top: 25px; }
+    .contact-form form .button::after {
+      content: "\2192"; }
+
+.project-intro {
+  padding-top: 180px;
+  margin-bottom: 160px; }
+  .project-intro h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 96px;
+    font-weight: normal;
+    line-height: 100%;
+    max-width: 800px;
+    margin-bottom: 120px; }
+  .project-intro p {
+    font-family: Hind, sans-serif;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555; }
+  .project-intro h2 {
+    font-family: Hind, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px; }
+  .project-intro a.launch {
+    font-size: 24px;
+    font-family: "Abril Fatface", serif;
+    color: #27282e;
+    margin-top: 40px;
+    display: block; }
+  .project-intro a.launch::after {
+    content: "\2192";
+    margin-left: 5px; }
+  .project-intro img {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    margin-top: 140px;
+    margin-bottom: 140px; }
+
+section.project-image {
+  margin-bottom: 130px; }
+  section.project-image img {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 90%;
+    display: block;
+    margin-top: 140px; }
+
+section.project-text {
+  margin-top: 100px; }
+  section.project-text p.sub {
+    color: #aaa;
+    font-size: 20px;
+    margin: 0;
+    margin-top: -50px;
+    margin-bottom: 50px; }
+    @media screen and (max-width: 768px) {
+      section.project-text p.sub {
+        font-size: 18px; } }
+  section.project-text h2 {
+    font-size: 38px;
+    font-family: "Abril Fatface", sans-serif;
+    color: #27282e;
+    max-width: 800px;
+    margin-bottom: 50px; }
+  section.project-text p {
+    font-family: Hind, sans-serif;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555;
+    margin-top: 40px; }
+
+section.project-quote {
+  margin-top: 130px; }
+  section.project-quote p {
+    max-width: 600px;
+    font-family: "Abril Fatface", serif;
+    font-size: 25px;
+    line-height: 164%;
+    margin-bottom: 40px; }
+  section.project-quote p::before {
+    content: "\201C"; }
+  section.project-quote p::after {
+    content: "\201D"; }
+  section.project-quote footer {
+    font-size: 16px;
+    font-family: Hind, sans-serif; }
+
+a.more-projects {
+  display: block;
+  font-size: 32px;
+  color: #27282e;
+  font-family: "Abril Fatface", serif;
+  margin: 150px 0; }
+
+a.more-projects::after {
+  content: "\2192";
+  margin-left: 20px; }
+
+section.blog-posts {
+  margin-top: 120px; }
+  section.blog-posts .owl-carousel .owl-nav {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
+    section.blog-posts .owl-carousel .owl-nav button {
+      background: #27282e;
+      color: #fff;
+      width: 80px;
+      height: 80px;
+      outline: none; }
+    section.blog-posts .owl-carousel .owl-nav button.disabled {
+      background: #fff;
+      color: #27282e; }
+  section.blog-posts .featured-posts {
+    max-width: 80vw;
+    margin: 0 auto; }
+  section.blog-posts #featured-post-1 {
+    background-image: url(../../images/@stock/project-image-2.png); }
+  section.blog-posts #featured-post-2 {
+    background-image: url(../../images/@stock/project-image-4.png); }
+  section.blog-posts .featured-posts .featured-post {
+    padding-top: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
+    overflow: hidden;
+    background-color: #ccc;
+    background-size: cover; }
+    section.blog-posts .featured-posts .featured-post h2 {
+      font-family: "Abril Fatface", serif;
+      font-size: 63px;
+      color: #27282e; }
+    section.blog-posts .featured-posts .featured-post ul.tags li {
+      float: left;
+      display: block;
+      font-family: Hind, sans-serif;
+      color: #999;
+      margin-right: 5px; }
+      section.blog-posts .featured-posts .featured-post ul.tags li a {
+        color: #999; }
+    section.blog-posts .featured-posts .featured-post .excerpt {
+      font-size: 20px;
+      line-height: 150%;
+      color: #555; }
+    section.blog-posts .featured-posts .featured-post a.more {
+      font-family: "Abril Fatface", serif;
+      font-size: 24px;
+      display: block;
+      margin: 80px 0;
+      color: #27282e; }
+    section.blog-posts .featured-posts .featured-post a.more::after {
+      content: "\2192"; }
+  section.blog-posts .posts {
+    width: 65vw;
+    margin: 0 auto;
+    margin-top: 80px; }
+    section.blog-posts .posts #post-1 .image-wrapper {
+      background-image: url(../../images/@stock/post-1.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-2 .image-wrapper {
+      background-image: url(../../images/@stock/post-2.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-3 .image-wrapper {
+      background-image: url(../../images/@stock/post-3.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-4 .image-wrapper {
+      background-image: url(../../images/@stock/post-4.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-5 .image-wrapper {
+      background-image: url(../../images/@stock/post-5.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-6 .image-wrapper {
+      background-image: url(../../images/@stock/post-6.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-7 .image-wrapper {
+      background-image: url(../../images/@stock/post-7.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-8 .image-wrapper {
+      background-image: url(../../images/@stock/post-8.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-9 .image-wrapper {
+      background-image: url(../../images/@stock/post-9.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-10 .image-wrapper {
+      background-image: url(../../images/@stock/post-10.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-11 .image-wrapper {
+      background-image: url(../../images/@stock/post-11.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts #post-12 .image-wrapper {
+      background-image: url(../../images/@stock/post-12.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
+    section.blog-posts .posts .post {
+      overflow: hidden;
+      margin-bottom: 30px; }
+      section.blog-posts .posts .post .image-wrapper {
+        width: 100%;
+        height: 410px;
+        display: block; }
+      section.blog-posts .posts .post h2 {
+        font-size: 32px;
+        font-family: "Abril Fatface", serif;
+        line-height: 100%;
+        margin-top: 30px;
+        min-height: 64px; }
+        section.blog-posts .posts .post h2 a {
+          color: #27282e; }
+      section.blog-posts .posts .post .meta {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #999; }
+        section.blog-posts .posts .post .meta a {
+          color: #999; }
+        section.blog-posts .posts .post .meta time {
+          display: inline-block;
+          margin-right: 10px; }
+        section.blog-posts .posts .post .meta ul.tags {
+          display: inline-block; }
+          section.blog-posts .posts .post .meta ul.tags li {
+            float: left;
+            display: block;
+            font-family: Hind, sans-serif;
+            color: #999;
+            margin-right: 5px; }
+            section.blog-posts .posts .post .meta ul.tags li a {
+              color: #999; }
+      section.blog-posts .posts .post .excerpt {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Hind, sans-serif;
+        color: #555; }
+      section.blog-posts .posts .post a.more {
+        display: block;
+        font-size: 24px;
+        margin: 40px 0;
+        color: #27282e;
+        font-family: "Abril Fatface", serif; }
+      section.blog-posts .posts .post a.more::after {
+        content: "\2192"; }
+  section.blog-posts .pager {
+    width: 240px;
+    margin: 150px auto;
+    overflow: hidden; }
+    section.blog-posts .pager a {
+      font-family: "Abril Fatface", serif;
+      font-size: 32px;
+      color: #27282e; }
+    section.blog-posts .pager .prev {
+      float: left;
+      display: inline-block; }
+    section.blog-posts .pager .prev::before {
+      content: "\2190"; }
+    section.blog-posts .pager .next {
+      float: right;
+      display: inline-block; }
+    section.blog-posts .pager .next::after {
+      content: "\2192"; }
+
+section.blog-post {
+  margin-top: 120px; }
+  section.blog-post h1, section.blog-post h2, section.blog-post h3, section.blog-post h4, section.blog-post h5, section.blog-post h6, section.blog-post .meta, section.blog-post p, section.blog-post img.small, section.blog-post > ul, section.blog-post > .tags, section.blog-post blockquote, section.blog-post .comment_form, section.blog-post a.more-posts, section.blog-post .comments {
+    max-width: 40vw;
+    margin-left: 300px; }
+  section.blog-post blockquote {
+    margin-bottom: 40px; }
+    section.blog-post blockquote p {
+      margin-left: 0;
+      font-size: 25px;
+      font-family: "Abril Fatface", serif;
+      max-width: 30vw; }
+    section.blog-post blockquote p::before {
+      content: "\201C"; }
+    section.blog-post blockquote p::after {
+      content: "\201D"; }
+    section.blog-post blockquote footer {
+      font-size: 16px;
+      font-family: Hind, sans-serif;
+      margin-top: 20px; }
+  section.blog-post h1, section.blog-post h2, section.blog-post h3, section.blog-post h4, section.blog-post h5, section.blog-post h6 {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  section.blog-post h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 63px;
+    line-height: 114%; }
+  section.blog-post h2 {
+    font-family: "Abril Fatface", serif;
+    font-size: 50px; }
+  section.blog-post h3 {
+    font-family: "Abril Fatface", serif;
+    font-size: 38px; }
+  section.blog-post h4 {
+    font-family: "Abril Fatface", serif;
+    font-size: 32px; }
+  section.blog-post h5 {
+    font-family: "Abril Fatface", serif;
+    font-size: 26px; }
+  section.blog-post h6 {
+    font-family: "Abril Fatface", serif;
+    font-size: 20px; }
+  section.blog-post p {
+    font-size: 20px;
+    line-height: 150%;
+    font-family: Hind, sans-serif;
+    margin-top: 20px; }
+  section.blog-post img.small {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  section.blog-post a.more-posts {
+    display: block;
+    font-size: 32px;
+    color: #27282e;
+    font-family: "Abril Fatface", serif;
+    margin-top: 150px;
+    margin-bottom: 150px; }
+  section.blog-post a.more-posts::after {
+    content: "\2192";
+    margin-left: 20px; }
+  section.blog-post > ul {
+    list-style-type: disc; }
+  section.blog-post > .tags {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #555; }
+    section.blog-post > .tags span {
+      font-weight: bold;
+      font-size: 20px;
+      font-family: Hind, sans-serif;
+      margin-right: 5px; }
+    section.blog-post > .tags a {
+      color: #555;
+      margin-left: 5px; }
+  section.blog-post img.large {
+    display: block;
+    max-width: 80vw;
+    margin: 50px auto; }
+  section.blog-post img.medium {
+    display: block;
+    max-width: 70vw;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  section.blog-post .meta {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #999; }
+    section.blog-post .meta a {
+      color: #999; }
+    section.blog-post .meta time {
+      display: inline-block;
+      margin-right: 10px; }
+    section.blog-post .meta ul.tags {
+      display: inline-block; }
+      section.blog-post .meta ul.tags li {
+        float: left;
+        display: block;
+        font-family: Hind, sans-serif;
+        color: #999;
+        margin-right: 5px; }
+        section.blog-post .meta ul.tags li a {
+          color: #999; }
+  section.blog-post .comments {
+    margin-top: 150px; }
+    section.blog-post .comments li {
+      margin-top: 40px; }
+    section.blog-post .comments h2 {
+      margin-left: 0;
+      font-size: 38px;
+      margin-bottom: 70px; }
+    section.blog-post .comments .name, section.blog-post .comments .comment, section.blog-post .comments a.reply {
+      margin-left: 100px;
+      display: block; }
+    section.blog-post .comments ul.inner {
+      margin-left: 100px; }
+    section.blog-post .comments .name {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Hind, sans-serif; }
+    section.blog-post .comments .comment p {
+      margin-left: 0;
+      margin-top: 10px; }
+    section.blog-post .comments a.reply {
+      font-family: "Abril Fatface", serif;
+      font-size: 20px;
+      color: #27282e;
+      margin-top: 10px; }
+    section.blog-post .comments a.reply::after {
+      content: "\2192";
+      padding-left: 5px; }
+    section.blog-post .comments .image-wrapper {
+      float: left;
+      width: 80px;
+      height: 80px;
+      overflow: hidden;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      section.blog-post .comments .image-wrapper img {
+        width: auto;
+        height: auto;
+        max-width: initial;
+        display: block;
+        margin: 0 auto; }
+  section.blog-post .comment_form {
+    margin-top: 150px; }
+    section.blog-post .comment_form h2 {
+      margin-left: 0;
+      font-size: 38px; }
+    section.blog-post .comment_form form {
+      max-width: 800px; }
+      section.blog-post .comment_form form .input, section.blog-post .comment_form form .textarea, section.blog-post .comment_form form .select select {
+        border-radius: 0; }
+      section.blog-post .comment_form form label.error {
+        color: red;
+        margin-top: 5px;
+        display: block; }
+      section.blog-post .comment_form form .input, section.blog-post .comment_form form textarea {
+        margin-top: 25px;
+        font-family: "Abril Fatface", serif;
+        padding-left: 20px;
+        font-size: 22px; }
+      section.blog-post .comment_form form .input {
+        height: 70px; }
+      section.blog-post .comment_form form textarea {
+        height: 210px; }
+      section.blog-post .comment_form form .button {
+        border: none;
+        font-family: "Abril Fatface", serif;
+        padding-left: 0;
+        font-size: 24px;
+        margin-top: 25px; }
+      section.blog-post .comment_form form .button::after {
+        content: "\2192"; }

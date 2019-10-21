@@ -1,0 +1,11 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+@media screen and (min-width: 1024px) {
+  .navbar-dropdown > .third-level .navbar-item {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 13px; } }

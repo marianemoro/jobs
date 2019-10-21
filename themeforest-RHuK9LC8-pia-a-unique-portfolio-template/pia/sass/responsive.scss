@@ -1,0 +1,29 @@
+@import "../bulma/utilities/_all";
+
+
+@mixin range($start, $end) {
+  @media screen and (min-width: $start) and (max-width: $end - 1px) {
+    @content
+  }
+}
+
+@include desktop {
+
+  .navbar-dropdown > .third-level {
+
+    .navbar-item {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: 13px;
+    }
+
+  }
+
+}
+
+
+// @include range($tablet, $desktop) {
+//   .hero {
+//     display: none;
+//   }
+// }

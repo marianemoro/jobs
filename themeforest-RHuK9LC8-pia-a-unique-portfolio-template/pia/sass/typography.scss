@@ -1,0 +1,95 @@
+
+// Variables
+$base-font-size: 125;
+$line-height: 1.5;
+
+
+//vertical rhythm mixins
+@mixin line-height($number) {
+  line-height: #{ $number *$line-height + 'rem' };
+}
+
+@mixin margin-top($number) {
+  margin-top: #{ $number * $line-height + 'rem' };
+}
+
+@mixin margin-bottom($number) {
+  margin-bottom: #{ $number * $line-height + 'rem' };
+}
+
+html {
+  font-size: #{$base-font-size + '%'};
+}
+
+* {
+  @include line-height(1);
+  @include margin-bottom(1);
+  @include margin-top(0);
+}
+
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr {
+  @include line-height(1);
+  @include margin-bottom(1);
+  @include margin-top(0);
+}
+
+
+// Base size and ratio
+$base: 1; // =20px
+$ratio: 1.125;
+
+// The formula for modular scale is  (ration^value) x base
+
+@function pow ($number, $exponent) {
+  $value: 1;
+
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  }@else if $exponent < 0 {
+    @for $i from 1 through -$exponent {
+      $value: $value / $number;
+    }
+  }
+
+  @return $value;
+}
+
+// Let's make is simpler to use by combining everything
+
+@function ms($value, $ms-ratio: $ratio, $ms-base: $base) {
+  $size: pow($ms-ratio, $value) * $ms-base;
+  @return #{ $size + "rem"};
+}
+
+// [ h1: font-size: [x value from scale]]
+$headings: (
+  h1: (14, 3.5, 2, 1),
+  h2: (5, 1.5, 2, 1),
+  h3: (4, 1, 1, 0),
+  h4: (3, 1, 1, 0),
+  h5: (2, 1, 1, 0),
+  h6: (0, 1, 1, 0)
+);
+
+h6 {
+  font-weight: bold;
+}
+
+// Set font-size, line-heights and margins
+@each $heading, $properties in $headings {
+  #{$heading} {
+    font-size: ms(nth($properties, 1));
+    @include line-height(nth($properties, 2));
+    @include margin-top(nth($properties, 3));
+    @include margin-bottom(nth($properties, 4));
+  }
+}
+
+
+
+
+
+
+
