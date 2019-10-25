@@ -553,50 +553,44 @@ p.scroll-hint.flip .arrow {
     display: block;
     padding-top: 100%; }
   .portfolio-gallery #work-1 .inner {
-    background-image: url(https://via.placeholder.com/900);
-    background-image: url(../../images/tatos-0.jpg);
+    background-image: url(../../images/@stock/work-1.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
   .portfolio-gallery #work-2 .inner {
-    background-image: url(https://via.placeholder.com/900);
     background-image: url(../../images/@stock/work-2.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
   .portfolio-gallery #work-3 .inner {
-    background-image: url(https://via.placeholder.com/900);
-    background-image: url(../../images/tatos-0.jpg);
+    background-image: url(../../images/@stock/work-3.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
   .portfolio-gallery #work-4 .inner {
-    background-image: url(https://via.placeholder.com/900);
-    background-image: url(../../images/glace-0.png);
+    background-image: url(../../images/tatos-0.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
   .portfolio-gallery #work-5 .inner {
-    background-image: url(https://via.placeholder.com/900);
-    background-image: url(../../images/photovoltaic-0.jpg);
+    background-image: url(../../images/glace-0.png);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
   .portfolio-gallery #work-6 .inner {
-    background-image: url(https://via.placeholder.com/900);
-    background-image: url(../../images/kp-0.jpg);
+    background-image: url(../../images/photovoltaic-0.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
   .portfolio-gallery #work-7 .inner {
     background-image: url(https://via.placeholder.com/900);
-    background-image: url(../../images/bigfoot-0.jpg);
+    background-image: url(../../images/kp-0.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
   .portfolio-gallery #work-8 .inner {
     background-image: url(https://via.placeholder.com/900);
-    background-image: url(../../images/@stock/work-8.jpg);
+    background-image: url(../../images/bigfoot-0.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover; }
