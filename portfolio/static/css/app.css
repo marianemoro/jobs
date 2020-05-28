@@ -1290,9 +1290,8 @@ section.blog-posts {
     max-width: 80vw;
     margin: 0 auto 6rem; }
   section.blog-posts .featured-posts .featured-post {
-    min-height: 600px;
+    min-height: 570px;
     max-height: 750px;
-    background-color: #333;
     background-size: cover;
     position: relative; }
     @media screen and (max-width: 1159px) {
