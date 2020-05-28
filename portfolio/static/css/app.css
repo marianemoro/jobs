@@ -1314,7 +1314,7 @@ section.blog-posts {
       height: 100%;
       background-color: rgba(0, 0, 0, 0.4); }
     section.blog-posts .featured-posts .featured-post .color-overlay.pink {
-      background-color: rgba(109, 21, 35, 0.65); }
+      background-color: rgba(5, 62, 31); }
     section.blog-posts .featured-posts .featured-post .color-overlay.orange {
       background-color: rgba(137, 50, 30, 0.65); }
     section.blog-posts .featured-posts .featured-post .featured-content {
@@ -1334,6 +1334,7 @@ section.blog-posts {
     section.blog-posts .featured-posts .featured-post h2 {
       line-height: 3.3rem;
       font-size: 3.24732rem;
+      color: #fff;
       margin-bottom: 20px;
       letter-spacing: -2px; }
       @media screen and (max-width: 1159px) {
